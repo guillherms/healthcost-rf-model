@@ -1,0 +1,49 @@
+# Bytecode do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de log
+*.log
+
+# Ambientes virtuais
+.env/
+
+# Arquivos de configuração do PyInstaller
+*.spec
+
+# Diretórios de build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+
+# Jupyter Notebooks checkpoint
+.ipynb_checkpoints/
+
+# Arquivos de testes
+.coverage
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+
+# Configurações de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Configuração do MyPy e Pylint
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
