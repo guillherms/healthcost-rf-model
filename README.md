@@ -12,7 +12,7 @@ Desenvolver um modelo preditivo que estime com precisão os encargos médicos de
 - Pandas
 - NumPy
 - Scikit-learn
-- Matplotlib / Seaborn (opcional para EDA)
+- Matplotlib / Seaborn
 
 ## 📁 Estrutura do Projeto
 
@@ -33,17 +33,7 @@ Desenvolver um modelo preditivo que estime com precisão os encargos médicos de
 - **RMSE (Erro Quadrático Médio)**  
 - **R² (Coeficiente de Determinação)**  
 - Importância das variáveis explicativas
-
-## 🔮 Exemplos de Uso
-
-```python
-# Prevendo o custo de um novo paciente
-novo_paciente = {
-    "idade": 45,
-    "imc": 28.5,
-    "filhos": 2,
-    "fumante": 1,
-    "gênero_masculino": 1,
-    "região_sudeste": 1
-}
-modelo.predict([novo_paciente])
+- Real vs Previsto
+- Importâncias das features
+- Gráfico: Resíduos (Erros)
+- Gráfico comparativo
